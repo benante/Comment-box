@@ -56,3 +56,8 @@ li {
     border-radius: 8px;
     font-size:small ;
 }
+.wrong{
+    border-color: red;
+    border-width: medium;
+    border-style: solid;
+}
