@@ -1,0 +1,58 @@
+body {
+    background-color: azure;
+}
+
+.container {
+    background-color: rgb(240, 247, 118);
+    width: 600px;
+    margin:50px auto;
+    border-radius: 8px;
+    padding: 20px ;
+}
+.group {
+    margin: 0.5em;
+}
+.group *{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.borderBottom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border-radius: 8px;
+    padding: 12px;
+    border: thin;
+    border-style: solid;
+    border-bottom: 3px solid #4682b4;
+}
+.borderBottom:focus{
+    box-shadow: 4px 2px 5px rgb(100, 100, 27);
+}
+#charcount {
+    text-align: end;
+    font-size:smaller;
+}
+.submitButton {
+    border-radius: 8px;
+    width: 20%;
+    height: 30px;
+    background-color: #4682b4;
+    color: azure;
+}
+.submitButton:focus {
+    box-shadow: 4px 2px 5px rgb(100, 100, 27);
+}
+ul {
+    padding: 0;
+}
+li {
+    background-color: azure;
+    padding: 12px;
+    border: rgb(194, 194, 187);
+    border-style: solid;
+    border-width: 0.1rem;
+    margin-top: 0.2em;
+    border-radius: 8px;
+    font-size:small ;
+}
