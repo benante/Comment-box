@@ -12,14 +12,14 @@
       <header class="header">
         <h1>Comment Box</h1>
       </header>
-      <form action="index.html" onsubmit="getData(event)">
+      <form action="index.html" method="post">
         <div class="group">
           <label for="name">Full Name</label>
-          <input class="borderBottom" type="text" id="FullName" />
+          <input class="borderBottom" type="text" id="FullName" required />
         </div>
         <div class="group">
           <label for="email">Email</label>
-          <input class="borderBottom" type="email" id="email" />
+          <input class="borderBottom" type="email" id="email" required/>
         </div>
         <div class="group">
           <label for="textarea">Insert your comment</label>
@@ -29,6 +29,7 @@
             id="textarea"
             cols="30"
             rows="5"
+            required
           ></textarea>
           <span id="charcount">0/140</span>
         </div>
@@ -38,7 +39,7 @@
           </button>
         </div>
       </form>
-      <div id="commentSection"class="group comments">
+      <div id="commentSection"class="group">
         <ul id="singleComment"></ul>
       </div>
     </div>

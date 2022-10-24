@@ -1,7 +1,9 @@
 body {
     background-color: azure;
 }
-
+header {
+    margin-left: 9px;
+}
 .container {
     background-color: rgb(240, 247, 118);
     width: 600px;
@@ -27,6 +29,7 @@ body {
     border-bottom: 3px solid #4682b4;
 }
 .borderBottom:focus{
+    outline-width: 0;
     box-shadow: 4px 2px 5px rgb(100, 100, 27);
 }
 #charcount {
@@ -57,7 +60,7 @@ li {
     font-size:small ;
 }
 .wrong{
-    border-color: red;
+    border-color: rgb(200, 115, 115);
     border-width: medium;
     border-style: solid;
 }
