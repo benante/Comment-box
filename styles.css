@@ -59,6 +59,9 @@ li {
     border-radius: 8px;
     font-size:small ;
 }
+.commentSection {
+    overflow-wrap: break-word;
+}
 .wrong{
     border-color: rgb(200, 115, 115);
     border-width: medium;
