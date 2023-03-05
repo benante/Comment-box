@@ -1,5 +1,6 @@
 body {
     background-color: azure;
+    font-size: 26px;
 }
 header {
     margin-left: 9px;
@@ -38,10 +39,12 @@ header {
 }
 .submitButton {
     border-radius: 8px;
-    width: 20%;
-    height: 30px;
+    width: 25%;
+    height: 40px;
     background-color: #4682b4;
     color: azure;
+    font-size: 0.8em;
+    letter-spacing: 1px;
 }
 .submitButton:focus {
     box-shadow: 4px 2px 5px rgb(100, 100, 27);
@@ -57,7 +60,7 @@ li {
     border-width: 0.1rem;
     margin-top: 0.2em;
     border-radius: 8px;
-    font-size:small ;
+    font-size: medium;
 }
 .commentSection {
     overflow-wrap: break-word;
